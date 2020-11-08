@@ -1,0 +1,293 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR0104
+U 1 1 5F9528CF
+P 4800 2350
+F 0 "#PWR0104" H 4800 2200 50  0001 C CNN
+F 1 "+5V" H 4815 2523 50  0000 C CNN
+F 2 "" H 4800 2350 50  0001 C CNN
+F 3 "" H 4800 2350 50  0001 C CNN
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2350 4800 2400
+Wire Wire Line
+	4800 2400 4725 2400
+Text Label 2875 2900 0    50   ~ 0
+A12
+Wire Wire Line
+	2875 2900 3025 2900
+Text Label 2875 3000 0    50   ~ 0
+WE
+Wire Wire Line
+	2875 3000 3025 3000
+Text Label 2875 3100 0    50   ~ 0
+A7
+Wire Wire Line
+	3025 3100 2875 3100
+Text Label 2875 3300 0    50   ~ 0
+A6
+Wire Wire Line
+	2875 3300 3025 3300
+Text Label 2875 3400 0    50   ~ 0
+A5
+Wire Wire Line
+	2875 3400 3025 3400
+Text Label 2875 3500 0    50   ~ 0
+A4
+Wire Wire Line
+	2875 3500 3025 3500
+Text Label 2875 3600 0    50   ~ 0
+A3
+Wire Wire Line
+	2875 3600 3025 3600
+Text Label 2875 3700 0    50   ~ 0
+A2
+Wire Wire Line
+	2875 3700 3025 3700
+Text Label 2875 3800 0    50   ~ 0
+A1
+Wire Wire Line
+	2875 3800 3025 3800
+Wire Wire Line
+	2875 3900 3025 3900
+Text Label 2875 4000 0    50   ~ 0
+D0
+$Comp
+L power:GND #PWR0106
+U 1 1 5F96FF4A
+P 2900 2350
+F 0 "#PWR0106" H 2900 2100 50  0001 C CNN
+F 1 "GND" H 2905 2177 50  0000 C CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MBED_LPC1768:LPC1768 U1
+U 1 1 5F9E2B51
+P 3875 3250
+F 0 "U1" H 3875 4487 60  0000 C CNN
+F 1 "LPC1768" H 3875 4381 60  0000 C CNN
+F 2 "MBED_LPC1768:LPC1768" H 3875 3250 50  0001 C CNN
+F 3 "" H 3875 3250 50  0001 C CNN
+	1    3875 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2350 2900 2300
+Wire Wire Line
+	2900 2300 3025 2300
+$Comp
+L AT28C64B-15PU:AT28C64B-15PU U2
+U 1 1 5FA25FE0
+P 6725 3225
+F 0 "U2" H 6725 4392 50  0000 C CNN
+F 1 "AT28C64B-15PU" H 6725 4301 50  0000 C CNN
+F 2 "DIP1555W45P254L3733H482Q28" H 6725 3225 50  0001 L BNN
+F 3 "4.826 mm" H 6725 3225 50  0001 L BNN
+F 4 "Microchip Technology" H 6725 3225 50  0001 L BNN "Field4"
+F 5 "B" H 6725 3225 50  0001 L BNN "Field5"
+F 6 "IPC 7351B" H 6725 3225 50  0001 L BNN "Field6"
+	1    6725 3225
+	1    0    0    -1  
+$EndComp
+Text Label 5875 2825 0    50   ~ 0
+A0
+Wire Wire Line
+	5875 2825 6025 2825
+Text Label 5875 2925 0    50   ~ 0
+A1
+Wire Wire Line
+	5875 2925 6025 2925
+Text Label 5875 3025 0    50   ~ 0
+A2
+Wire Wire Line
+	5875 3025 6025 3025
+Text Label 5875 3125 0    50   ~ 0
+A3
+Wire Wire Line
+	6025 3125 5875 3125
+Text Label 5875 3225 0    50   ~ 0
+A4
+Wire Wire Line
+	5875 3225 6025 3225
+Text Label 5875 3325 0    50   ~ 0
+A5
+Wire Wire Line
+	5875 3325 6025 3325
+Text Label 5875 3425 0    50   ~ 0
+A6
+Wire Wire Line
+	5875 3425 6025 3425
+Text Label 5875 3525 0    50   ~ 0
+A7
+Wire Wire Line
+	5875 3525 6025 3525
+Text Label 5875 3625 0    50   ~ 0
+A8
+Wire Wire Line
+	5875 3625 6025 3625
+Text Label 5875 3725 0    50   ~ 0
+A9
+Wire Wire Line
+	5875 3725 6025 3725
+Text Label 5875 3825 0    50   ~ 0
+A10
+Wire Wire Line
+	5875 3825 6025 3825
+Text Label 5875 3925 0    50   ~ 0
+A11
+Wire Wire Line
+	5875 3925 6025 3925
+Text Label 5875 4025 0    50   ~ 0
+A12
+Wire Wire Line
+	5875 4025 6025 4025
+Text Label 7575 2825 2    50   ~ 0
+D0
+Text Label 7575 2925 2    50   ~ 0
+D1
+Text Label 7575 3025 2    50   ~ 0
+D2
+Wire Wire Line
+	7425 2825 7575 2825
+Wire Wire Line
+	7425 2925 7575 2925
+Wire Wire Line
+	7425 3025 7575 3025
+Text Label 7575 3125 2    50   ~ 0
+D3
+Wire Wire Line
+	7575 3525 7425 3525
+Text Label 7575 3225 2    50   ~ 0
+D4
+Wire Wire Line
+	7575 3125 7425 3125
+Text Label 7575 3325 2    50   ~ 0
+D5
+Wire Wire Line
+	7575 3225 7425 3225
+Wire Wire Line
+	7575 3325 7425 3325
+Wire Wire Line
+	7575 3425 7425 3425
+Text Label 7575 3425 2    50   ~ 0
+D6
+Text Label 7575 3525 2    50   ~ 0
+D7
+$Comp
+L power:GND #PWR0101
+U 1 1 5FA2C532
+P 7475 4175
+F 0 "#PWR0101" H 7475 3925 50  0001 C CNN
+F 1 "GND" H 7480 4002 50  0000 C CNN
+F 2 "" H 7475 4175 50  0001 C CNN
+F 3 "" H 7475 4175 50  0001 C CNN
+	1    7475 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 4175 7475 4125
+Wire Wire Line
+	7475 4125 7425 4125
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FA2DB12
+P 7500 2275
+F 0 "#PWR0102" H 7500 2125 50  0001 C CNN
+F 1 "+5V" H 7515 2448 50  0000 C CNN
+F 2 "" H 7500 2275 50  0001 C CNN
+F 3 "" H 7500 2275 50  0001 C CNN
+	1    7500 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2275 7500 2325
+Wire Wire Line
+	7500 2325 7425 2325
+Text Label 5875 2525 0    50   ~ 0
+OE
+Wire Wire Line
+	5875 2525 6025 2525
+Text Label 5875 2625 0    50   ~ 0
+WE
+Wire Wire Line
+	5875 2625 6025 2625
+Text Label 5875 2425 0    50   ~ 0
+CE
+Wire Wire Line
+	6025 2425 5875 2425
+Wire Wire Line
+	4875 3700 4725 3700
+Text Label 4875 3700 2    50   ~ 0
+CE
+Text Label 4875 4000 2    50   ~ 0
+D5
+Text Label 2875 3900 0    50   ~ 0
+A0
+Wire Wire Line
+	3025 4100 2875 4100
+Wire Wire Line
+	3025 4000 2875 4000
+Wire Wire Line
+	4875 4000 4725 4000
+Text Label 2875 4100 0    50   ~ 0
+D1
+Wire Wire Line
+	3025 4200 2875 4200
+Text Label 2875 4200 0    50   ~ 0
+D2
+Wire Wire Line
+	4725 3900 4875 3900
+Text Label 4875 3900 2    50   ~ 0
+D6
+Wire Wire Line
+	4725 3800 4875 3800
+Text Label 4875 3800 2    50   ~ 0
+D7
+Wire Wire Line
+	4875 3400 4725 3400
+Text Label 4875 3400 2    50   ~ 0
+A11
+Wire Wire Line
+	4725 3600 4875 3600
+Text Label 4875 3600 2    50   ~ 0
+A10
+Wire Wire Line
+	4725 3500 4875 3500
+Text Label 4875 3500 2    50   ~ 0
+OE
+Wire Wire Line
+	4725 3300 4875 3300
+Text Label 4875 3300 2    50   ~ 0
+A9
+Text Label 4875 4200 2    50   ~ 0
+D3
+Wire Wire Line
+	4875 4200 4725 4200
+Wire Wire Line
+	4725 4100 4875 4100
+Text Label 4875 4100 2    50   ~ 0
+D4
+Text Label 2875 3200 0    50   ~ 0
+A8
+Wire Wire Line
+	3025 3200 2875 3200
+$EndSCHEMATC

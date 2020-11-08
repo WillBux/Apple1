@@ -1,4 +1,4 @@
-# Temporary files
+# Temporary KiCad files
 *.000
 *.bak
 *.bck
@@ -12,3 +12,18 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
+# mbed files
+.mbed
+BUILD/
+.build/
+venv/
+mbed_settings.*
+.hgignore
+.hg/
+mbed_config.h
+Makefile
+mbed-memory-status.lib
+
+# MacOS
+.DS_Store
