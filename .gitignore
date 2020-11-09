@@ -22,8 +22,21 @@ mbed_settings.*
 .hgignore
 .hg/
 mbed_config.h
-Makefile
 mbed-memory-status.lib
+mbed-os/
+
+# ASF Build Results
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.map
+*.srec
+*.lss
+*.bin
+[Dd]ocumentation/
+[Ee]xamples/
 
 # MacOS
 .DS_Store
