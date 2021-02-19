@@ -1,11 +1,9 @@
 #include "mbed.h"
 #ifdef PCB
     #include "pins_pcb.h"
-    #warning "PCB"
 #else
     #include "pins.h"
 #endif
-#include "pins.h"
 #include "data.h"
 
 BusOut addressIO(A00, A01, A02, A03, A04, A05, A06, A07, A08, A09, A10, A11, A12);
