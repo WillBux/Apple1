@@ -1,0 +1,80 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.9-0-10_14)"
+    },
+    "CreationDate":  "2021-10-21T14:39:27-04:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "Apple1",
+      "GUID": "4170706c-6531-42e6-9b69-6361645f7063",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 157.185,
+      "Y": 134.725
+    },
+    "LayerNumber": 4,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.150,
+      "PadToTrack":  0.150,
+      "TrackToTrack":  0.150,
+      "MinLineWidth":  0.300,
+      "TrackToRegion":  0.200,
+      "RegionToRegion":  0.200
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad":  0.150,
+      "PadToTrack":  0.150,
+      "TrackToTrack":  0.150
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "Apple1-F_Cu.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "Apple1-B_Cu.gbr",
+      "FileFunction":  "Copper,L4,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "Apple1-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    }
+  ]
+}

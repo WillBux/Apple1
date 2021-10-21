@@ -613,11 +613,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 3750 1950 3750
 Wire Wire Line
-	3100 4550 3200 4550
-Wire Wire Line
-	3200 4550 3200 4425
-Connection ~ 3100 4550
-Wire Wire Line
 	1650 3850 1950 3850
 Text Label 1650 3850 0    50   ~ 0
 RP_RDA
@@ -655,4 +650,5 @@ Text Label 3800 2875 2    50   ~ 0
 RP_PA3
 Wire Wire Line
 	3800 2875 3500 2875
+NoConn ~ 3200 4425
 $EndSCHEMATC
